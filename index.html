@@ -86,7 +86,7 @@
 </head>
 <body class="bg-gray-100 flex h-screen overflow-hidden">
 
-    <aside class="w-64 bg-white shadow-md flex flex-col h-full flex-shrink-0">
+    <aside id="sidebar" class="w-64 bg-white shadow-md flex flex-col h-full flex-shrink-0 fixed inset-y-0 left-0 z-30 transform -translate-x-full md:relative md:translate-x-0 transition-transform duration-200 ease-in-out md:flex">
         <div class="p-4 border-b">
             <h1 class="text-xl font-bold text-gray-800">Restaurant Menu</h1>
         </div>
@@ -99,7 +99,11 @@
     </aside>
 
     <main class="flex-1 flex flex-col overflow-hidden">
-        <div class="p-4 bg-white border-b shadow-sm flex items-center space-x-2 flex-shrink-0">
+        <div class="p-4 bg-white border-b shadow-sm flex items-center space-x-2 flex-shrink-0 relative z-10">
+            <!-- Hamburger Menu Button (visible on small screens) -->
+            <button id="menu-toggle" class="p-2 text-gray-500 hover:text-gray-700 md:hidden">
+                <svg class="lucide lucide-menu" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+            </button>
              <svg class="lucide lucide-search text-gray-400 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
             <input type="text" id="search-input" placeholder="Search all items..." class="w-full p-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent text-sm">
             <button id="clear-search" class="p-2 text-gray-500 hover:text-gray-700 flex-shrink-0" title="Clear Search">
@@ -110,9 +114,25 @@
         <div id="menu-content" class="flex-1 overflow-y-auto p-6 bg-gray-50">
             <div class="text-center text-gray-500">Select a category from the sidebar or use the search bar.</div>
         </div>
+        <!-- Overlay for mobile sidebar -->
+        <div id="sidebar-overlay" class="fixed inset-0 bg-black bg-opacity-50 z-20 hidden md:hidden"></div>
     </main>
 
     <script>
+        const menuToggle = document.getElementById('menu-toggle');
+        const sidebar = document.getElementById('sidebar');
+        const sidebarOverlay = document.getElementById('sidebar-overlay');
+
+        function toggleSidebar() {
+            sidebar.classList.toggle('-translate-x-full');
+            sidebarOverlay.classList.toggle('hidden');
+        }
+
+        if (menuToggle && sidebar && sidebarOverlay) {
+            menuToggle.addEventListener('click', toggleSidebar);
+            sidebarOverlay.addEventListener('click', toggleSidebar); // Close sidebar when overlay is clicked
+        }
+
         // --- Data ---
         // Embed JSON data directly into the script
         const menuData = {
