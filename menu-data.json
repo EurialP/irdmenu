@@ -1,0 +1,387 @@
+{
+             "breakfast": {
+               "title": "BREAKFAST MENU",
+               "subtitle": "Served Daily",
+               "sections": [
+                 {
+                   "title": "Coffee",
+                   "items": [
+                     { "name": "Espresso", "price": "£3" },
+                     { "name": "Americano", "price": "£4" },
+                     { "name": "Cortado / Macchiato / Flat White", "price": "£5" },
+                     { "name": "Cappuccino / Latte", "price": "£6" }
+                   ]
+                 },
+                 {
+                   "title": "Tea by Rare Tea Company",
+                   "items": [
+                     { "name": "White", "description": "Jasmine Silver Tip", "price": "£7 each" },
+                     { "name": "Green", "description": "Sencha / Genmaicha", "price": "£7 each" },
+                     { "name": "Black", "description": "English Breakfast Blend / Earl Grey", "price": "£7 each" },
+                     { "name": "Oolong", "description": "Sunset Oolong", "price": "£7 each" },
+                     { "name": "Herbal", "description": "Fresh Mint Blend / Lemongrass & Ginger / Chamomile", "price": "£7 each" }
+                   ]
+                 },
+                 {
+                   "title": "Hot Drinks",
+                   "items": [
+                     { "name": "Chai Latte", "description": "Masala Chai, Cinnamon, Ginger & White Pepper with Milk of Choice", "price": "£7 each" },
+                     { "name": "Matcha Latte", "description": "Matcha Tea, Coconut & Oat Milk", "price": "£7 each" },
+                     { "name": "Hot Chocolate", "description": "Dark Chocolate, Cream & Salt", "price": "£7 each" }
+                   ]
+                 },
+                 {
+                   "title": "Breakfast",
+                   "items": [
+                     { "name": "Yoghurt & Berries", "description": "Greek Yoghurt, Nomad Granola & Fresh Berries", "price": "£14" },
+                     { "name": "Porridge", "description": "Toasted Oats, Oat Milk & Fruit Compote", "price": "£12" },
+                     { "name": "Lemon Poppy Pancakes", "description": "Griddled with Blueberries & Whipped Ricotta", "price": "£19" },
+                     { "name": "Avocado Toast", "description": "Maitake Mushrooms, Radishes & Parsley", "price": "£18" },
+                     { "name": null, "description": "With a Poached Egg", "price": "£22" },
+                     { "name": "Two Eggs", "description": "Prepared Any Style with Choice of Toast", "price": "£17" },
+                     { "name": "Omelette", "description": "Sautéed Mushrooms & Cacio e Pepe", "price": "£19" },
+                     { "name": "Breakfast Sandwich", "description": "Fried Burford Brown Egg & Cheese on Homemade English Muffin, Choice of Bacon / Chicken Sausage / Greens & Rosti", "price": "£18" },
+                     { "name": "Pastries", "description": "Croissant / Ham & Cheese Croissant / Pain au Chocolat", "price": "£6" },
+                     { "name": "Full English", "description": "Fried Eggs, Black Pudding, Bacon, Sausage, Roast Tomato, Mushroom, Potato Rosti & Sourdough Toast. Includes coffee or tea and juice", "price": "£29" },
+                     { "name": "Full Veggie", "description": "Fried Eggs, Avocado, Spinach, Stewed Beans, Roast Tomato, Mushroom, Potato Rosti & Sourdough Toast. Includes coffee or tea and juice", "price": "£25" }
+                   ]
+                 },
+                 {
+                   "title": "Sides",
+                   "items": [
+                     { "name": "Fresh Fruit Bowl / Avocado / Potato Rostis", "price": "£7 each" },
+                     { "name": "Bacon / Pork Sausage / Smoked Salmon", "price": "£8 each" }
+                   ]
+                 }
+               ]
+             },
+             "dinner": {
+               "title": "FOOD MENU",
+               "subtitle": "AUTUMN 2024 DINNER",
+               "sections": [
+                 {
+                   "title": "Snacks",
+                   "items": [
+                     { "name": "CRUDITÉS", "description": "Seasonal raw vegetables (chicory, radishes, cucumbers, carrots) served with chive emulsion. A NoMad Classic from NY.", "price": "£14", "allergens": "Eggs.", "dietaryInfo": "Onion." },
+                     { "name": "TUNA TOAST", "description": "Toasted milk bread filled with Tuna tartare & horseradish cream, served with lemon gel, pickled shallot, frisée, radish & mustard frill.", "price": "£19", "allergens": "Cereals/Gluten (Cannot be removed), Fish (Cannot be removed), Milk (Incl Lactose - Cannot be removed), Mustard, Sulphites.", "dietaryInfo": "Citrus, Onion." },
+                     { "name": "OYSTER ON THE HALF SHELF", "description": "6 Carlingford oysters served on crushed ice with vermouth mignonette, gremolata, and lemon wedges. Mignonette includes minced shallots, pepper, vinegar. Gremolata includes parsley, lemon zest, garlic.", "price": "£28", "allergens": "Molluscs (Cannot be removed), Sulphites.", "dietaryInfo": "Alcohol, Citrus, Garlic, Nightshade, Onion." },
+                     { "name": "SCOTCH OLIVES", "description": "Halbourne Blue cheese stuffed Gordal Olives wrapped in lamb sausage, breaded with panko, fried, and served with Harissa Mayo and fried mint leaves (3 per portion).", "price": "£16", "allergens": "Cereals/Gluten, Eggs, Milk (Incl Lactose), Sulphites.", "dietaryInfo": "Citrus, Garlic, Nightshade." },
+                     { "name": "FLATBREAD", "description": "Flatbread baked with crème fraiche and mozzarella, served with confit delica squash, whipped ricotta, picked thyme, fried pumpkin seeds, and hot honey. A 'plain' dairy-free version is available.", "price": "£12", "allergens": "Cereals/Gluten (Cannot be removed), Milk (Incl Lactose - Cannot be removed).", "dietaryInfo": "Garlic, Nightshade, Onion. (Dairy-free 'plain' version available)" },
+                     { "name": "KALETTES", "description": "Fried Kalettes (kale sprouts) in rice flour tempura batter with honey mustard and dried cranberries.", "price": "£14", "allergens": "Cereals/Gluten (CC), Eggs (CC), Mustard, Sulphites.", "dietaryInfo": "Citrus, Nightshade." }
+                   ]
+                 },
+                 {
+                   "title": "Vegetables",
+                   "items": [
+                     { "name": "WALDORF SALAD", "description": "Waldorf salad mix (celery, apple, walnuts, grapes, mayo-based dressing) piped into filo pastry, dipped in parsley breadcrumbs, fried, and finished with truffle paste and fresh black truffle.", "price": "£15", "allergens": "Celery, Cereals/Gluten, Eggs, Milk (Incl Lactose), Nuts (Walnuts), Sulphites.", "dietaryInfo": "Alcohol (Brandy), Citrus, Mushroom (Truffle), Nightshade (Cayenne), Onion." },
+                     { "name": "GEM SALAD", "description": "Red gem lettuce leaves with shaved raw radish, lemon vinaigrette, Green Goddess dressing (vegetarian version, no anchovy), chopped chives & lemon zest.", "price": "£12", "allergens": "Eggs (Can be removed), Milk (Incl Lactose - Can be removed), Sulphites.", "dietaryInfo": "Citrus, Garlic, Onion. (Modification: Lemon vinaigrette or EVOO)" },
+                     { "name": "RED SALAD", "description": "Red leaf salad (Radicchio, red endive, red frill mustard leaf, chard stem, red shiso, red/purple kale, beetroot) with Edmond Tew cheese spread (cow's milk, animal rennet).", "price": "£15", "allergens": "Milk (Incl Lactose), Mustard, Sulphites.", "dietaryInfo": "(None marked)." },
+                     { "name": "CHARRED HISPI CABBAGE", "description": "Charred purple Hispi (sweetheart) cabbage dressed with pumpkin seed butter, topped with a nut & seed mix, served with delica squash puree. (Vegan).", "price": "£29", "allergens": "Nuts (Hazelnut, almond, pecan, walnut, pistachio, pine nut), Sulphites (Vinegar).", "dietaryInfo": "Garlic, Nightshade (Aleppo). (Dish is Vegan)" },
+                     { "name": "MUSHROOM RISOTTO", "description": "Carnaroli rice risotto with UK-sourced wild mushrooms (Maitake, porcini, black trumpet - fresh and fried) and mint.", "price": "£32", "allergens": "Celery, Cereals/Gluten (CC - Fried mushrooms), Milk (Incl Lactose - Parmesan), Sulphites (Wine).", "dietaryInfo": "Alcohol (Wine), Citrus, Mushroom, Onion." }
+                   ]
+                 },
+                  {
+                   "title": "Fish",
+                   "items": [
+                     { "name": "OYSTER ROCKEFELLER", "description": "3 Grilled Carlingford oysters topped with a creamy cheese sauce (bacon, garlic, shallot, spinach, cream, basil, Pernod, parmesan) and brioche crumb, grilled on the hearth.", "price": "£14", "allergens": "Cereals/Gluten (Brioche), Milk (Incl Lactose - Cream, Parmesan), Molluscs, Sulphites (Pernod).", "dietaryInfo": "Alcohol (Pernod), Garlic, Nightshade (Cayenne), Onion, Pork (Lardons)." },
+                     { "name": "SEABASS CRUDO", "description": "Seabass crudo served on a tapioca crisp, dressed with green curry sauce, coriander oil, finger lime, and garnished with red/green shiso leaves and Thai basil.", "price": "£16", "allergens": "Celery (Stock), Cereals/Gluten (CC - Frier), Fish, Sulphites.", "dietaryInfo": "Citrus, Garlic, Nightshade, Onion." },
+                     { "name": "GRILLED ORKNEY SCALLOP", "description": "Fresh Orkney Scallop grilled on the coals, served with roe oil and a smoked sabayon, finished with smoked dulce powder.", "price": "£16", "allergens": "Eggs (Sabayon), Molluscs, Sulphites.", "dietaryInfo": "Alcohol (Wine in Sabayon?), Garlic, Nightshade (Paprika), Onion." },
+                     { "name": "SCOTTISH MUSSELS", "description": "Scottish mussels cooked with fresh Calabrian chilli, anchovies, shallot, fennel, celery soffrito, served with grilled sourdough, chives, and Calabrian chilli spread.", "price": "£18", "allergens": "Celery, Cereals/Gluten (Sourdough), Fish (Anchovies), Molluscs, Sulphites (Wine).", "dietaryInfo": "Alcohol (Wine), Garlic, Nightshade, Onion." },
+                     { "name": "LOBSTER PAPPARDELLE", "description": "Pappardelle pasta with lobster in a butter emulsion, finished with lemongrass and black pepper.", "price": "£38", "allergens": "Cereals/Gluten, Crustaceans, Eggs, Fish (Kombu Stock), Milk (Incl Lactose - Butter), Soya (Kombu Stock), Sulphites (Vinegar).", "dietaryInfo": "Alcohol (Kombu Stock), Citrus, Garlic, Nightshade, Onion." },
+                     { "name": "SEARED ATLANTIC COD", "description": "Seared Atlantic cod served with a celeriac chowder (fumet blanc), blanched celeriac, and finished with picked watercress, chives, celery, and parsley.", "price": "£46", "allergens": "Celery, Fish, Milk (Incl Lactose - Cream, Butter), Sulphites (Wine, Vermouth).", "dietaryInfo": "Alcohol (Wine, Vermouth), Mushroom, Onion." }
+                   ]
+                 },
+                 {
+                   "title": "Meat & Game",
+                   "items": [
+                     { "name": "GRILLED QUAIL", "description": "Grilled quail rubbed with a three-pepper spice mix, served medium with lemon puree and marigold leaf.", "price": "£16", "allergens": "Milk (Incl Lactose - Butter).", "dietaryInfo": "Citrus, Nightshade (Chilli, Cayenne)." },
+                     { "name": "BEEF CARPACCIO", "description": "Thinly sliced beef loin (seared outside) served with caper & parmesan cream, pine nut confit, pickled shallots & caper berries.", "price": "£24", "allergens": "Milk (Incl Lactose - Parmesan, Cream), Mustard, Nuts (Pine Nuts), Sulphites (Vinegar).", "dietaryInfo": "Citrus, Onion." },
+                     { "name": "SQUAB", "description": "Confit squab leg and seared breast served with braised fennel, orange puree, fennel puree, squab sauce, finished with Castelfranco & pink radicchio, orange segments, and fennel pollen.", "price": "£24", "allergens": "Celery, Milk (Incl Lactose - Butter), Sulphites (Wine, Vinegar).", "dietaryInfo": "Alcohol (Wine, Brandy, Port, Pernod), Citrus, Garlic, Onion." },
+                     { "name": "SHERWOOD FOREST VENISON", "description": "Black trumpet mushroom crumbed Venison served with chestnut puree, charred pickled onion, black trumpet mushrooms, and sauce civet (game stew sauce, traditionally w/ blood). Garnished with shaved fresh chestnut.", "price": "£48", "allergens": "Cereals/Gluten (Brioche), Milk (Incl Lactose - Butter, Cream), Mustard (Dijon), Nuts (Chestnut), Sulphites (Wine, Vinegar).", "dietaryInfo": "Alcohol (Wine, Brandy, Maderia), Onion, Pork (Blood)." },
+                     { "name": "CORN FED CHICKEN", "description": "Chicken Breast served with confit potatoes, gem lettuce dressed in buttermilk, lettuce puree, and a sherry cream sauce.", "price": "£32", "allergens": "Celery, Eggs (Mayo), Milk (Incl Lactose - Buttermilk, Cream, Butter), Sulphites (Wine, Sherry).", "dietaryInfo": "Alcohol (Wine, Sherry), Citrus, Garlic, Mushroom, Onion." },
+                     { "name": "BRITISH BEEF FILET", "description": "Dry-aged beef fillet (grilled med-rare) with turnip puree, cooked turnip, fried purple/green kale, bordelaise sauce, finished with spikey kale tops and black pepper.", "price": "£56", "allergens": "Celery, Milk (Incl Lactose - Butter, Cream?), Sulphites (Wine, Vinegar).", "dietaryInfo": "Alcohol (Wine, Brandy), Garlic, Onion." }
+                   ]
+                 },
+                 {
+                   "title": "Feasts From The Hearth",
+                   "items": [
+                     { "name": "TOMAHAWK STEAK", "description": "45-day aged Tomahawk steak (950g avg) served with fire-roasted brown butter mash (pomme puree), Jersey Royals & Heritage tomatoes with Green Goddess Dressing, creamed chard, Bordelaise sauce, and chimichurri on the side.", "price": "£150", "allergens": "Celery, Cereals/Gluten (Breadcrumb), Eggs, Milk (Incl Lactose - Cheese, Butter?), Sulphites.", "dietaryInfo": "Alcohol, Citrus, Garlic, Nightshade, Onion." },
+                     { "name": "WHOLE GRILLED SEA BASS", "description": "Whole sea bass grilled on the hearth, served with agrodolce sauce, Puntarelle (chicory variant), Citrus Salsa, and Butter Glazed New Potatoes on the side.", "price": "£120", "allergens": "Celery, Fish (Anchovy), Milk (Incl Lactose - Butter), Sulphites (Wine, Vinegar).", "dietaryInfo": "Alcohol (Wine), Citrus, Garlic, Nightshade (Aleppo), Onion." },
+                     { "name": "WILD HAMPSHIRE PHEASANT (GUINEA FOWL)", "description": "Grilled Guinea Fowl (Label Rouge quality from Loire, France) served with fire-roasted baby corn with chimichurri, spinach, sweetcorn custard (chawanmushi style) with truffle, foie gras & offal tart, and truffle & Madeira sauce.", "price": "£85", "allergens": "Cereals/Gluten (Rye, AP Flour), Eggs (Chawanmushi), Fish (Dashi, Bonito), Milk (Incl Lactose - Butter), Soya (White Soya Sauce), Sulphites (Madeira).", "dietaryInfo": "Alcohol (Mirin, Madeira), Citrus, Garlic, Mushroom (Shiitake, Truffle), Nightshade, Onion." },
+                     { "name": "STUFFED SQUASH", "description": "Roasted Delica squash with a sage stuffing, served with braised collard greens, wild rice, puffed wild rice, sweet garlic puree, and a roasted vegetable sauce.", "price": "£65", "allergens": "Celery, Cereals/Gluten (Brioche), Eggs, Milk (Incl Lactose - Cream, Milk, Whey, Butter), Sulphites (Wine).", "dietaryInfo": "Alcohol (Wine), Garlic, Mushroom (Portabella), Nightshade (Red Peppers, Cayenne), Onion." }
+                   ]
+                 },
+                 {
+                   "title": "Sides",
+                   "items": [
+                     { "name": "SIDE SALAD", "description": "Red gem lettuce leaves with shaved raw radish, lemon vinaigrette, and dill.", "price": "£9", "allergens": "(None marked).", "dietaryInfo": "Citrus." },
+                     { "name": "KALES", "description": "Sauteed green and purple kale leaves (including Cavolo Nero) with garlic and lemon vinaigrette, mixed with fried kale leaves.", "price": "£7", "allergens": "Cereals/Gluten (CC).", "dietaryInfo": "Citrus, Garlic." },
+                     { "name": "TWICE BAKED POTATO", "description": "Twice baked potato stuffed with truffle mash, finished with fried black truffle, cheese espuma (Raclette & Parmigiano Reggiano), garnished with black truffle and chives.", "price": "£19", "allergens": "Cereals/Gluten (CC - Frier), Milk (Incl Lactose - Raclette, Cream, Milk).", "dietaryInfo": "Mushroom (Truffle)." },
+                     { "name": "BROCCOLINI", "description": "Charred broccolini dressed in lemon vinaigrette, chilli oil & sesame crumble (Vegan).", "price": "£10", "allergens": "Sesame Seeds, Sulphites (Vinegar?).", "dietaryInfo": "Citrus, Nightshade (Chilli), Onion. (Dish is Vegan)" },
+                     { "name": "CHIPS", "description": "Chips seasoned with rosemary salt (rosemary, lemon skin, salt), served with Ketchup and Pommery mustard mayo.", "price": "£9", "allergens": "Cereals/Gluten (CC), Eggs (Mayo), Milk (Incl Lactose - CC), Mustard (Mayo), Sulphites.", "dietaryInfo": "Citrus, Nightshade (Ketchup?)." }
+                   ]
+                 },
+                 {
+                   "title": "Dessert",
+                   "items": [
+                      { "name": "STRAWBERRY", "description": "Hibiscus Sorbet, Puffed Rice & Berry Compote", "price": "£14", "allergens": "(No detailed allergen page found)" },
+                      { "name": "CHOCOLATE", "description": "Peanut Butter Ice Cream & Caramelised Banana", "price": "£14", "allergens": "(No detailed allergen page found)" },
+                      { "name": "MILK & HONEY", "description": "Shortbread, Brittle & Ice Cream", "price": "£14", "allergens": "(No detailed allergen page found)" },
+                      { "name": "COCONUT", "description": "Lime, Mango & Passion Fruit", "price": "£14", "allergens": "(No detailed allergen page found)" },
+                      { "name": "CHEESE SELECTION", "description": "Served with Quince & Crackers", "price": "£19", "allergens": "(No detailed allergen page found)" }
+                   ]
+                 }
+               ]
+             },
+             "beers": {
+               "title": "BEER & CIDER MENU",
+               "subtitle": "Explore our curated list of beers and ciders.",
+               "sections": [
+                 {
+                   "title": "BEERS",
+                   "items": [
+                     { "name": "PowerPlant Pilsner", "type": "Pilsner", "brewery": "Two Tribes", "description": "Pilsner. Floral, herbaceous, low bitterness, cedar notes. Gluten Free. Origin: London, UK", "abv": "4.5%" },
+                     { "name": "Metroland Tokyo", "type": "Session IPA", "brewery": "Two Tribes", "description": "Session IPA. Big hop aroma, drinkable, full flavoured, pineapple & green tea notes. Origin: London, UK", "abv": "4.0%" },
+                     { "name": "Hop Hand Fallacy", "type": "Witbier", "brewery": "Lost & Grounded", "description": "Witbier. Soft mouthfeel, low bitterness, citrus, orange peel, coriander. Vegan. Origin: Bristol, UK", "abv": "4.4%" },
+                     { "name": "American Pale Ale", "type": "West Coast IPA", "brewery": "SOHO", "description": "West Coast IPA. Strong hop aroma, intense bitterness, citrus/piney, smooth citrusy, zesty grapefruit. Origin: West Sussex, UK", "abv": "4.4%" },
+                     { "name": "Neighbourhood IPA", "type": "West Coast IPA", "brewery": "40ft", "description": "West Coast IPA. Strong hop aromas, intense bitterness, citrus/piney notes. Origin: London, UK", "abv": "6.0%" },
+                     { "name": "Guinness", "type": "Irish Dry Stout", "brewery": "Guinness", "description": "Irish Dry Stout. Dry, coffee-flavoured, creamy texture, dark roasted barley. Origin: Dublin, IE", "abv": "4.1%" },
+                     { "name": "Fruh Kolsch", "type": "Kolsch", "brewery": "Fruh", "description": "Kolsch. Bright noble hop aroma, faint fruitiness, light, simple, quaffable, crisp. Origin: Cologne, DE", "abv": "4.8%" },
+                     { "name": "Lager", "type": "Pilsner", "brewery": "SOHO", "description": "Pilsner. Balanced, flavorsome, quaffable, soft bitterness, complex aromatics, smooth. Origin: London, UK", "abv": "4.5%" },
+                     { "name": "Pacifico Clara", "type": "Mexican Lager", "brewery": "Pacifico", "description": "Mexican Lager. Crisp, refreshing, grass-citrus and ocean mist notes. Origin: Sinaloa, MX", "abv": "4.5%" },
+                     { "name": "Pale Ale", "type": "Pale Ale", "brewery": "Kernel", "description": "Pale Ale. Dry, light-bodied, showcases varying hops (batch dependent). Origin: Bermondsey, London, UK", "abv": "5-6%" },
+                     { "name": "NoMad Mexican Sour", "type": "Gose/Kettle Sour", "brewery": "Two Tribes", "description": "Gose/Kettle Sour. Salty, high acid, lime peel, margarita profile. Origin: London, UK", "abv": "5.6%", "note": "Cans Only" },
+                     { "name": "Orval Belgian Ale", "type": "Trappist Ale", "brewery": "Orval", "description": "Trappist Ale. Complex aroma of leather, spice, earthy notes. Dry hopped, Brett yeast. Origin: Orval, Belgium", "abv": "6.2%" },
+                     { "name": "Fowl Play", "type": "Schwarzbier", "brewery": "40FT", "description": "Schwarzbier. Dark lager with coffee, chocolate, citrus notes. Delicate bitterness. Origin: London, UK", "abv": "4.6%", "note": "Cans/Growler" }
+                   ]
+                 },
+                 {
+                   "title": "CIDERS",
+                   "items": [
+                     { "name": "Sassy Organic Cider", "brewery": "Maison Sassy", "description": "Normandy Cider. Fruit forward, mature fruit, baked apple aromas. Organic. Origin: Normandy, FR", "abv": "4.0%" },
+                     { "name": "Sassy Poire Cider", "brewery": "Maison Sassy", "description": "Perry (Pear Cider). Crisp, fruit forward, fresh pear, white flower aromas. Organic. Origin: Normandy, FR", "abv": "2.5%" },
+                     { "name": "Sassy Rose Cider", "brewery": "Maison Sassy", "description": "Rosé Cider. Semi-dry/soft, fruit forward, red fruit, apple aromas. Organic. Origin: Normandy, FR", "abv": "3.0%" }
+                   ]
+                 },
+                 {
+                   "title": "NON-ALCOHOLIC",
+                   "items": [
+                     { "name": "Superior Unfiltered Lager", "brewery": "Lucky Saint", "description": "Non-Alcoholic. Unfiltered lager brewed according to Reinheitsgebot. Maximum flavour. Origin: Bavaria, Germany", "abv": "0.05%" }
+                   ]
+                 }
+               ]
+             },
+             "cocktails": {
+               "title": "COCKTAIL MENU",
+               "subtitle": "Winter Season 2024",
+               "sections": [
+                 {
+                   "title": "Classic Cocktails",
+                   "items": [
+                     { "name": "Honeybush Negroni", "tagline": "A Rich, Floral Negroni", "description": "Tasting Notes: Honeybush, Coconut, Bitter", "price": "£18" },
+                     { "name": "Chartreuse Swizzle", "tagline": "A Swizzle with Hints of Spices", "description": "Tasting Notes: Spices, Pineapple, Sunflower", "allergens": "Citrus, Sulphates", "price": "£18" },
+                     { "name": "Whiskey Sour", "tagline": "A Fig Whiskey Sour", "description": "Tasting Notes: Fig, Prune, Banana", "allergens": "Lactose, Eggs, Citrus, Sulphites, Walnuts", "price": "£18" },
+                     { "name": "Cobra's Fang", "tagline": "A Juicy Take on the Mai Tai", "description": "Tasting Notes: Passionfruit, Juicy, Spice", "allergens": "Dairy, Citrus", "price": "£18" },
+                     { "name": "American Trilogy", "tagline": "Rye & Apple Brandy Old Fashioned", "description": "Tasting Notes: Winter Spices, Maple, Baked Apple", "price": "£18" },
+                     { "name": "Cardinal", "tagline": "Amaro & Coffee Mule", "description": "Tasting Notes: Ginger, Coffee, Spices, Citrus", "allergens": "Citrus, Caffeine", "price": "£18" },
+                     { "name": "Stranger Things", "tagline": "A Green Apple Gimlet", "description": "Tasting Notes: Caraway, Crisp Apple, Herbaceous", "allergens": "Citrus (Lime), Tree Nuts (Almonds)", "price": "£18" },
+                     { "name": "Sgt Pepper", "tagline": "A Spicy, Vegetal Margarita", "description": "Tasting Notes: Cilantro, Melon, Jalapeno, Pineapple", "allergens": "Citrus (Lime), Pineapple, Nightshade (Chilli)", "price": "£18" },
+                     { "name": "Start Me Up", "tagline": "A Bourbon Penicillin", "description": "Tasting Notes: Ginger, Honey, Saffron, Light Menthol", "allergens": "Citrus", "price": "£18" },
+                     { "name": "Walter Gibson", "tagline": "A Martini with Stone Fruit Qualities", "description": "Tasting Notes: Orchard Fruits", "allergens": "Sulphites (Pickles - removable), Sulphites (Wine)", "price": "£18" },
+                     { "name": "Always Betz on Black", "tagline": "Banana Manhattan", "description": "Tasting Notes: Raisin, Banana, Oak", "price": "£18" }
+                   ]
+                 },
+                 {
+                   "title": "Reserve Cocktails",
+                   "items": [
+                     { "name": "Tuxedo #2", "tagline": "A Twist on a Martini", "description": "Tasting Notes: Anise, Bright Cherry, Stirred Down Boozy", "allergens": "Citrus (can be removed)", "price": "£22" },
+                     { "name": "Hanky Panky", "tagline": "A Famous Martini Twist (Savoy)", "description": "Tasting Notes: Herbaceous, Anise, Smooth", "allergens": "Citrus (can be removed)", "price": "£22" },
+                     { "name": "Paloma (Reserve)", "tagline": "Tequila, Mezcal, Grapefruit Highball", "description": "Tasting Notes: Fresh Citrus, Agave", "allergens": "Citrus", "price": "£22" },
+                     { "name": "Jungle Bird (Reserve)", "tagline": "A Bitter Rum Sour", "description": "Tasting Notes: Bitter, Vanilla & Date", "allergens": "Citrus, Pineapple, Animal Product (Vintage Campari)", "price": "£22" },
+                     { "name": "Sazerac", "tagline": "Boozy, Up Whiskey Cocktail", "description": "Tasting Notes: Floral, Fruity, Stone Fruit", "price": "£22" }
+                   ]
+                 },
+                 {
+                   "title": "Atrium Cocktails",
+                   "items": [
+                     { "name": "Bee-Sou", "tagline": "A Honey Forward French 75", "description": "Tasting Notes: Honey, Black Pepper", "allergens": "Citrus, Nightshade", "price": "£19" },
+                     { "name": "Waldorf Sour", "tagline": "Waldorf Salad in Liquid Form", "description": "Tasting Notes: Nutty, Grapes, Aromatic", "allergens": "Sulphites, Egg, Citrus, Nuts", "price": "£19" },
+                     { "name": "Mean Mr Mustard", "tagline": "Whiskey Sour with Dill Pickle & Mustard", "description": "Tasting Notes: Apple, Horseradish, Mustard", "allergens": "Mustard, Apple, Cucumber", "price": "£19" },
+                     { "name": "White Negroni", "tagline": "Negroni with a Fresh, Botanical Twist", "description": "Tasting Notes: Herbal, Floral, Slightly Bitter, Citrus", "allergens": "Nightshade, Cucumber", "price": "£19" },
+                     { "name": "Szechuan Gibson", "tagline": "Gibson with Szechuan Spice", "description": "Tasting Notes: Alcohol Forward, Savoury Spice, Pickled", "allergens": "Nightshade, Allium", "price": "£19" },
+                     { "name": "Celine Dijon", "tagline": "Mushroom & Mustard Old Fashioned", "description": "Tasting Notes: Savory, Umami, Pickles", "allergens": "Mustard, Mushroom", "price": "£19" },
+                     { "name": "Gondolero Milk Punch", "tagline": "A Classic Milk Punch", "description": "Tasting Notes: Baking Spice, Ceylon, Citrus", "allergens": "Dairy, Citrus", "price": "£19" }
+                   ]
+                 },
+                 {
+                   "title": "Side Hustle Cocktails",
+                   "items": [
+                     { "name": "Margarita", "tagline": "A Sour Made with Tequila", "description": "Tasting Notes: Agave, Lime, Orange Peel", "allergens": "Citrus (Lime)", "price": "£17" },
+                     { "name": "Mushroom Mole", "tagline": "Chocolate, Mushroom Mole Margarita", "description": "Tasting Notes: Chocolate, Mushroom, Burnt Chillies", "allergens": "Mushroom, Citrus, Nightshade", "price": "£17" },
+                     { "name": "Bergamot & Chilli", "tagline": "A Citrusy, Earthy, Spicy Margarita", "description": "Tasting Notes: Rich, Aromatic, Spicy", "allergens": "Nightshade, Citrus, Dairy", "price": "£17" },
+                     { "name": "Michelada", "tagline": "A Savoury and Spicy Beer", "description": "Tasting Notes: Red Pepper, Chilli, Lime", "allergens": "Citrus (Lime), Gluten, Garlic, Soya, Nightshade (Chilli)", "price": "£17" },
+                     { "name": "Paloma", "tagline": "A Refreshing Tequila and Grapefruit Highball", "description": "Tasting Notes: Grapefruit, Agave, Smoke", "allergens": "Citrus (Lime, Grapefruit), Nightshade Rim (Chilli)", "price": "£17" },
+                     { "name": "Toreador", "tagline": "An Apricot Margarita", "description": "Tasting Notes: Apricot, Floral & Citrus", "allergens": "Citrus (GF/Lime), Stone Fruit", "price": "£17" },
+                     { "name": "Batanga", "tagline": "A Tequila-Cola Highball", "description": "Tasting Notes: Cola, Cherry, Baking Spices", "allergens": "Citrus", "price": "£17" },
+                     { "name": "Oaxacan Old Fashioned", "tagline": "A Mezcal Old Fashioned", "description": "Tasting Notes: Smoke, Chocolate, Orange Peel", "allergens": "Citrus (Orange)", "price": "£17" }
+                   ]
+                 },
+                 {
+                   "title": "Soft Cocktails",
+                   "items": [
+                     { "name": "Strawberry & Basil Smash", "description": "Tasting Notes: Strawberry, Basil, Citrus", "allergens": "Citrus", "price": "£12" },
+                     { "name": "Passionfruit & Ginger Swizzle", "description": "Tasting Notes: Passionfruit, Ginger, Citrus", "allergens": "Citrus", "price": "£12" },
+                     { "name": "Pineapple & Sage Soda", "description": "Tasting Notes: Pineapple, Sage, Citrus", "allergens": "Citrus, Pineapple", "price": "£12" },
+                     { "name": "Cucumber & Elderflower Cooler", "description": "Tasting Notes: Cucumber, Elderflower, Citrus", "allergens": "Citrus", "price": "£12" }
+                   ]
+                 }
+               ]
+             },
+             "wines": {
+               "title": "WINE MENU",
+               "subtitle": "Wines By The Glass (Winter 2024)",
+               "sections": [
+                 {
+                   "title": "Sparkling",
+                   "items": [
+                     { "name": "Pelegrim", "subName": "Westwell NV", "variety": "Pinot Noir, Chardonnay, Pinot Meunier", "region": "Kent, England", "producer": "Westwell", "vintage": "NV", "farming": "Low intervention", "tastingNotes": "Apples, raspberries and sourdough, lemon and biscuit.", "about": "Traditional method sparkling from chalky soils, lees-aged 36 months. Named after 'Pilgrim' near Pilgrim's Way.", "price": "£18" },
+                     { "name": "Blanc de Blancs", "subName": "Gusbourne 2019", "variety": "Chardonnay", "region": "Kent, England", "producer": "Gusbourne", "vintage": "2019", "farming": "Conventional", "tastingNotes": "Ripe citrus and stone fruit on the nose, with a rich biscuity note. Palate is dominate by ripe fruit, yellow apple, white peach, honey and citrus notes.", "about": "Whole bunch pressed Chardonnay, fermented mostly in steel with some old oak. Lees aged 42 months, bottle aged 6 months.", "price": "£20" },
+                     { "name": "Fluence Brut Nature", "subName": "Franck Pascal NV", "variety": "Chardonnay (31%), Pinot Meunier (69%)", "region": "Champagne, France", "producer": "Franck Pascal", "vintage": "NV", "farming": "Biodynamic", "tastingNotes": "Soft and elegant mousse, fresh citrus and stone fruits, creamy biscuit notes.", "about": "Natural approach from Vallee de la Marne. Indigenous yeasts, no fining/filtering, avoids barrels. Brut Nature.", "price": "£22" },
+                     { "name": "'Nos Pas Dans La Craie' Blanc de Blancs", "subName": "Marie Copinet 2019", "variety": "Chardonnay", "region": "Champagne, France (Cote de Sezanne)", "producer": "Marie Copinet", "vintage": "2019", "farming": "Sustainable, Certified Organic", "tastingNotes": "Aromas of citrus fruit, white fruit, fantastic acidity paired with a persistent mineral finish.", "about": "Brut Nature from 40+ year old vines in Montgenost (lieu-dit Le Grande Montagne). Chalky soils.", "price": "£24" },
+                     { "name": "Grand Cuvee 172ème", "subName": "Krug NV", "variety": "Chardonnay, Pinot Noir, Pinot Meunier", "region": "Champagne, France", "producer": "Krug", "vintage": "NV (Base 2016, oldest 1998)", "farming": "Conventional", "tastingNotes": "Blooming flowers, ripe, dried and citrus fruits, a touch of gingerbread. Hazelnut, almond brioche and honey with a lively acidity.", "about": "Blend of 146 wines from 11 years. Fermented in small oak barrels, lees aged 6 years. 44% Pinot Noir, 36% Chardonnay, 20% Meunier.", "price": "£35" },
+                     { "name": "Dom Perignon 2013", "subName": null, "variety": "Pinot Noir, Chardonnay", "region": "Champagne, France (Hautvillers)", "producer": "Dom Perignon", "vintage": "2013", "farming": "Conventional", "tastingNotes": "Green fruit, plum, apricot and oranges. Blossom and pepper with a silky-smooth saline finish in and amongst toasty hues.", "about": "Single vintage blend from top 17 crus. Aged 8 years in cellar before release.", "price": "£45" },
+                     { "name": "Rose", "subName": "Ruinart NV", "variety": "Chardonnay, Pinot Noir", "region": "Champagne, France", "producer": "Ruinart", "vintage": "NV", "farming": "Conventional", "tastingNotes": "Delicate mousse with a pomegranate pink colour. Tropical fruits such as lychee and guava, rose pomegranate, raspberries, cherries, pink grapefruit, elegant.", "about": "Blend of ~80% Chardonnay and Pinot Noir. Claimed first rose Champagne. Oldest Champagne house (1729).", "price": "£35" }
+                   ]
+                 },
+                 {
+                   "title": "White",
+                   "items": [
+                     { "name": "Grüner Veltliner", "subName": "Christina 2023", "variety": "Grüner Veltliner", "region": "Carnuntum, Austria", "producer": "Christina Netzl", "vintage": "2023", "farming": "Certified Organic, vegan friendly", "tastingNotes": "Green fruit, white pepper spice, honeydew, a touch of saltiness and great balance of yeastiness and fruit.", "about": "Whole bunch pressed, natural ferment in stainless steel, long lees ageing. Unfined, unfiltered.", "price": "£14" },
+                     { "name": "La Pepie Chignin", "subName": "Adrien Berlioz 2023", "variety": "Jacquere", "region": "Savoie, France (Chignin)", "producer": "Adrien Berlioz", "vintage": "2023", "farming": "Biodynamic", "tastingNotes": "Freshness, mineral and alpine. Floral and fragrant notes, tangy, fresh and tense palate, light and aromatic.", "about": "Hand-harvested from steep (50%) limestone slopes worked by horse. Whole cluster pressed, fermented in tank, 4 months ageing.", "price": "£17" },
+                     { "name": "Severna Morava", "subName": "Deuric 2021", "variety": "Morava", "region": "Srem, Serbia", "producer": "Deuric", "vintage": "2021", "farming": "Certified organic", "tastingNotes": "Peach, ripe yellow apple and citrus fruits. Tropical, pinappale, mango, nectarines. Juicy with intervening lemongrass and melon characteristics.", "about": "From Fruska Gora national park slopes. Morava is a Serbian crossing (Traminer x Riesling). Modern techniques used.", "price": "£14" },
+                     { "name": "'Rheingau' Riesling", "subName": "Eva Fricke 2022", "variety": "Riesling", "region": "Rheingau, Germany", "producer": "Eva Fricke", "vintage": "2022", "farming": "Certified Organic, Biodynamic Practices", "tastingNotes": "Peach, nectarine, pear and lime. Slight spritz on the palate. Fresh and bright acidity to finish.", "about": "Dry Riesling from various Rheingau sites. Spontaneous fermentation in stainless steel.", "price": "£17" },
+                     { "name": "Trinquàmes", "subName": "La Grange Tiphaine 2023", "variety": "Sauvignon Blanc", "region": "Touraine, Loire, France", "producer": "La Grange Tiphaine", "vintage": "2023", "farming": "Biodynamic", "tastingNotes": "Fresh and aromatic, citrus and tropical fruit with a mineral backbone.", "about": "From 25-year-old vines on clay/limestone. Hand harvested, fermented and aged in stainless steel.", "price": "£20" },
+                     { "name": "'Calvarino' Soave", "subName": "Pieropan 2015", "variety": "70% Garganega, 30% Trebbiano", "region": "Soave, Italy", "producer": "Pieropan", "vintage": "2015", "farming": "Practicing organic", "tastingNotes": "Straw yellow, greenish hints, white flower, almond blossom, ripe fruit with a fresh clean acidity. Fragrant and long, almond pastry to finish.", "about": "Single vineyard (Calvarino) Soave Classico from volcanic hills. Fermented and aged 1 year in glass-lined cement tanks on fine lees.", "price": "£20" },
+                     { "name": "'Au Quin Château' Macon-Cruzille", "subName": "Vignes du Mayne 2022", "variety": "Chardonnay", "region": "Burgundy, France (Macon-Cruzille)", "producer": "Vignes du Mayne", "vintage": "2022", "farming": "Organic certified, biodynamic practices", "tastingNotes": "Notes of fresh lemon and almond, textured palate with elements of lemon pith and apple.", "about": "From 30-year-old vines on white/blue marl. Pressed into barrels, aged 8 months. Unfined, unfiltered. Oldest continually organic winery in France.", "price": "£23" },
+                     { "name": "Central Coast Chardonnay", "subName": "Sandhi 2021", "variety": "Chardonnay", "region": "California, USA (Central Coast)", "producer": "Sandhi (Rajat Parr & Sashi Moorman)", "vintage": "2021", "farming": "Practicing Organic", "tastingNotes": "Golden apple fruits, dried flower, nutty/almond notes, touch of spice, still a lovely freshness in acidity.", "about": "Collaboration focusing on Santa Barbara fruit. Wild fermentations, minimal additions, conservative new oak. Inspired by Burgundy.", "price": "£20" },
+                     { "name": "'Leirana' Albariño", "subName": "Forjas del Salnés 2023", "variety": "Albariño", "region": "Rias Baixas, Spain (Val do Salnés)", "producer": "Forjas del Salnés", "vintage": "2023", "farming": "Organic, practicing biodynamic", "tastingNotes": "Orchard fruit, pears, mineral, saline and bright. Lightness with a youthful zest.", "about": "From 90-150 year old vines. Fermented/aged mostly in steel (80%) with some neutral oak (20%) on lees.", "price": "£18" },
+                     { "name": "'Benje'", "subName": "Envínate 2022", "variety": "Listan Blanco (Palomino)", "region": "Tenerife, Spain (Ycoden-Daute-Isora)", "producer": "Envínate", "vintage": "2022", "farming": "organic", "tastingNotes": "Citrus and a slight herbaceous note, delicately floral with a creamy profile from the flor ageing that adds complexity and a smoothness to the wine. Saline and refreshing.", "about": "High altitude (1000m) vines. Fermented in concrete (25% skin contact). Aged in concrete & neutral oak foudre, 40% under flor.", "price": "£19" },
+                     { "name": "Chassagne-Montrachet 'Les Chenevottes'", "subName": "Thomas Morey 2020", "variety": "Chardonnay", "region": "Burgundy, France (Chassagne-Montrachet)", "producer": "Thomas Morey", "vintage": "2020", "farming": "Organic", "tastingNotes": "Green apple, peaches, buttery aspect.", "about": "Premier Cru vineyard near Le Montrachet. Old school winemaking, fermented and aged 12+ months in oak.", "price": "£32 (125ml Coravin)" }
+                   ]
+                 },
+                 {
+                   "title": "Skin-Contact",
+                   "items": [
+                     { "name": "'Bohem' Friulano", "subName": "Atelier Kramar 2019", "variety": "Friulano", "region": "Brda, Slovenia", "producer": "Atelier Kramar", "vintage": "2019", "farming": "Certified Organic, Biodynamic Practices", "tastingNotes": "Sweet spice and white peach aromatics with a mineral finish.", "about": "3 days skin contact, 12 months aging in old oak. Unfiltered, spontaneous fermentation.", "price": "£18" }
+                   ]
+                 },
+                 {
+                   "title": "Rose",
+                   "items": [
+                     { "name": "L' Écorce Buissonnière", "subName": "Valérie Courrèges 2023", "variety": "Grenache, Vermentino, Syrah", "region": "Provence, France", "producer": "Valérie Courrèges", "vintage": "2023", "farming": "Biodynamic", "tastingNotes": "Fresh, bright, fresh rose, grapefruit and some red berries.", "about": "From 40-50 year old vines on clay/limestone. Direct press, indigenous yeast ferment in concrete/amphora, aged on lees.", "price": "£18" },
+                     { "name": "Cru Classé", "subName": "Chateau Galoupet 2023", "variety": "Grenache, Tibouren, Syrah, Vermentino, Cinsault, Semillon", "region": "Provence, France", "producer": "Chateau Galoupet", "vintage": "2023", "farming": "Organic", "tastingNotes": "Summer fruit, yellow peach and floral notes. Pomelo and pineapple, silky structure with a delicately dry finish.", "about": "Cru Classé lieu-dit. Complex style, 30% vinified/aged 4-5 months in French oak demi-muids (62% new).", "price": "£26" }
+                   ]
+                 },
+                 {
+                   "title": "Red",
+                   "items": [
+                     { "name": "Nomad Collab", "subName": "Foradori 2022", "variety": "Vernatsch (Schiava)", "region": "Trentino, Italy", "producer": "Foradori", "vintage": "2022", "farming": "Biodynamic, Demeter certified", "tastingNotes": "Floral, violet, red cherry, red berries, integrated acidity with rustic qualities, moderate tannins.", "about": "Destemmed, spontaneous ferment in concrete/wood/amphora (<24hr skin contact), aged 5 months. Served in can.", "price": "£25 (250ml)" },
+                     { "name": "Pinot Noir", "subName": "Domaine Drouhin 2021", "variety": "Pinot Noir", "region": "Oregon, USA (Willamette Valley)", "producer": "Domaine Drouhin", "vintage": "2021", "farming": "Organic, Biodynamic", "tastingNotes": "Red cherry, raspberry, cranberry, earthy notes, forest floor, mushroom, silky tannins.", "about": "Burgundian family estate in Oregon. Destemmed, fermented in wood/steel, aged 14 months in French oak (20% new).", "price": "£20" },
+                     { "name": "Bourgogne Rouge", "subName": "Domaine de Bellene 2021", "variety": "Pinot Noir", "region": "Burgundy, France", "producer": "Domaine de Bellene", "vintage": "2021", "farming": "Organic", "tastingNotes": "Bright red fruit, cherry, raspberry, earthy undertones, subtle spice.", "about": "From old vines (50-70 years) near Beaune. Minimal intervention, aged in used oak.", "price": "£18" },
+                     { "name": "Fleurie 'Grand Pré'", "subName": "Domaine Chapel 2022", "variety": "Gamay", "region": "Beaujolais, France (Fleurie)", "producer": "Domaine Chapel", "vintage": "2022", "farming": "Organic", "tastingNotes": "Floral (violet, iris), red berries, cherry, light-bodied, smooth tannins.", "about": "From 60-year-old vines on pink granite. Carbonic maceration, aged in concrete.", "price": "£19" },
+                     { "name": "Chianti Classico", "subName": "Castell'in Villa 2019", "variety": "Sangiovese", "region": "Tuscany, Italy (Chianti Classico)", "producer": "Castell'in Villa", "vintage": "2019", "farming": "Practicing Organic", "tastingNotes": "Sour cherry, plum, leather, tobacco, earthy notes, firm tannins.", "about": "Traditional style from Castelnuovo Berardenga. Aged 12 months in large Slavonian oak casks.", "price": "£16" },
+                     { "name": "Rioja Reserva", "subName": "Viña Tondonia 2011", "variety": "Tempranillo, Garnacho, Graciano, Mazuelo", "region": "Rioja, Spain", "producer": "R. López de Heredia", "vintage": "2011", "farming": "Sustainable", "tastingNotes": "Dried red fruit, leather, vanilla, coconut, spice, savoury, complex.", "about": "Iconic traditional Rioja. Aged 6 years in American oak barrels, racked twice yearly.", "price": "£24" },
+                     { "name": "Saint-Joseph 'Offerus'", "subName": "J.L. Chave Selection 2021", "variety": "Syrah", "region": "Northern Rhône, France (Saint-Joseph)", "producer": "J.L. Chave Selection", "vintage": "2021", "farming": "Sustainable", "tastingNotes": "Blackberry, black olive, pepper, smoked meat, violets, firm structure.", "about": "Négociant label from Jean-Louis Chave. Sourced from top sites, aged in neutral oak.", "price": "£21" },
+                     { "name": "Cabernet Sauvignon", "subName": "Ridge Estate 2019", "variety": "Cabernet Sauvignon, Merlot, Petit Verdot, Cabernet Franc", "region": "California, USA (Santa Cruz Mountains)", "producer": "Ridge Vineyards", "vintage": "2019", "farming": "Organic", "tastingNotes": "Blackcurrant, cassis, cedar, tobacco leaf, graphite, structured tannins.", "about": "Iconic California producer. Estate fruit from Monte Bello vineyard. Aged 17 months in American oak (mostly new).", "price": "£28" },
+                     { "name": "Barolo 'Castiglione'", "subName": "Vietti 2019", "variety": "Nebbiolo", "region": "Piedmont, Italy (Barolo)", "producer": "Vietti", "vintage": "2019", "farming": "Sustainable", "tastingNotes": "Rose petals, tar, cherry, licorice, powerful tannins, long finish.", "about": "Blend from several crus in Castiglione Falletto. Aged ~30 months in large Slavonian oak casks.", "price": "£30" }
+                   ]
+                 }
+               ]
+             },
+             "ird": {
+               "title": "IN-ROOM DINING MENU",
+               "subtitle": "Available Daily",
+               "sections": [
+                 {
+                   "title": "SNACKS (Available from 11 am daily)",
+                   "items": [
+                     { "name": "FLATBREAD", "tagline": "With Delicata Squash, Mozzarella & Hot Honey", "description": "Flatbread baked with crème fraiche and mozzarella served with confit delica squash and finished with whipped ricotta, picked thyme, fried pumpkin seeds and a drizzle of hot honey.\nNote: A 'plain' version is available which is Dairy Free.", "allergens": "Cereals/Gluten (Cannot be removed), Milk (Cannot be removed). Other: Garlic, Nightshade, Onion.", "price": "£12" },
+                     { "name": "OYSTERS ON THE HALF SHELF", "tagline": "6 pieces with Sicilian Lemon & Mignonette", "description": "Carlingford oysters on a half shelf with vermouth mignonette and gremolata, finished with lemon ledges and served on crushed ice.\nDefinitions:\nMignonette: Condiment with minced shallots, cracked pepper, and vinegar.\nGremolata: Green sauce of chopped parsley, lemon zest, and garlic.", "allergens": "Molluscs (Cannot be removed), Sulphites. Other: Alcohol, Citrus, Garlic, Onion.", "price": "£28" },
+                     { "name": "CRUDITÉS", "tagline": "Summer Vegetables with Chive Aioli", "description": "Chicory, radishes, cucumbers and carrots served with chive emulsion. A NoMad Classic from NY.\nDefinition: Crudités refers to \"raw\" vegetables, typically served as an amuse bouche or canapé.", "allergens": "Eggs. Other: Onion.", "price": "£14" },
+                     { "name": "TUNA TOAST", "tagline": "Toast with Lemon & Horseradish", "description": "Toasted milk bread, filled with Tuna tartare & horseradish cream. Served with lemon gel, pickled shallot, frisée, radish & mustard frill.", "allergens": "Cereals/Gluten (Cannot be removed), Fish (Cannot be removed), Milk (Incl Lactose - Cannot be removed), Mustard, Sulphites. Other: Citrus, Onion.", "price": "£19" },
+                     { "name": "FRIED KALETTES", "tagline": "Fried with Honey Mustard & Dried Cranberries", "description": "Rice flour tempura kalettes with honey mustard and dried cranberries.\nDefinition: Kalettes are a hybrid plant brand name for kale sprouts, a cross between kale and Brussels sprouts.", "allergens": "Mustard, Sulphites. Other: Citrus, Nightshade.", "price": "£14" },
+                     { "name": "CHIPS", "tagline": "Rosemary & Lemon", "description": "Rosemary Chips, Served with Ketchup and Pommery mustard mayo.", "allergens": "Eggs, Mustard, Sulphites. Other: Citrus, Nightshade. (Note: Potential Gluten CC from fryer).", "price": "£9" }
+                   ]
+                 },
+                 {
+                   "title": "ALL DAY (Available from 11 am daily)",
+                   "items": [
+                     { "name": "NOMAD FRIED CHICKEN", "tagline": "With Aleppo Chilli & Lime", "description": "Fried chicken dusted with a spiced salt mix. Served Chipotle yogurt.", "allergens": "Cereals/Gluten, Eggs, Milk (Incl Lactose), Sulphites. Other: Citrus, Garlic, Nightshade, Onion.", "price": "£19" },
+                     { "name": "GEM LETTUCE", "tagline": "With Green Goddess, Radish & Dill", "description": "Red gem lettuce leaves served with shaved raw radish, lemon vinaigrette & Green Goddess dressing. Finished with chopped chives & lemon zest.\nDefinition: Green Goddess Dressing takes its name from its green tint, possibly originating from The Palace Hotel, San Francisco in 1923. The NoMad version does NOT contain anchovy and is vegetarian.", "allergens": "Eggs (Can be removed), Milk (Incl Lactose - Can be removed), Sulphites. Other: Citrus, Garlic, Onion. (Modification: Lemon vinaigrette or EVOO).", "price": "£12" },
+                     { "name": "NOMAD HOTDOG", "tagline": "Bacon-wrapped with Black Truffle & Celery", "description": "Spiel: Another signature from NoMad New York - a staple in the Elephant Bar!\nThe toasted bun is coated in truffle mayonnaise. The pork hot dog is wrapped in bacon, fried, and topped with melted Gruyere cheese, finished with celery relish and celery heart leaves.\nDefinition: Gruyere is a hard, nutty cheese from Switzerland.", "allergens": "Celery, Cereals/Gluten, Eggs, Milk (Incl Lactose), Mustard, Sulphites. Other: Mushroom, Pork.", "price": "£20" },
+                     { "name": "RED SALAD", "tagline": "With Beetroot, Chicories & Edmond Tew Spread", "description": "Red leaf salad with beetroot, winter greens and Edmond Tew spread.\nDefinition: Edmond Tew is made in the style of Petit Langres. Natural rind has a savoury, malty flavour; firm paste is lactic and fresh tasting. Pasteurised cow's milk, animal rennet.", "allergens": "Milk (Incl Lactose - Cannot be removed), Mustard.", "price": "£15" },
+                     { "name": "NOMAD CHICKEN BURGER", "tagline": "Gruyere, Shallot & Black Truffle", "description": "Chicken burger with gruyere cheese, pickled shallots, fried chicken skin and truffle mayonnaise.\nDefinition: Gruyere is a firm yellow Swiss cheese, known for its rich, creamy, salty, and nutty flavour.", "allergens": "Cereals/Gluten, Eggs, Milk (Incl Lactose), Sulphites. Other: Citrus, Onion, Mushroom.", "price": "£22" },
+                     { "name": "DRY-AGED BEEF BURGER", "tagline": "Cheddar, Red Onion & Special Sauce", "description": "Spiel: Another signature from NoMad New York - a staple in the Elephant Bar!\nServed medium-rare. Covered in melted cheddar cheese, topped with pickled red onion, and served in a cheddar chive bun with the NoMad special sauce. Selection of pickled vegetables served on the side.\nDefinitions:\nSuet: Hard fat found around the kidneys.\nChuck vs. Rib-eye: Cuts close in proximity, both have intense meaty flavour.", "allergens": "Cereals/Gluten, Eggs, Milk (Incl Lactose), Mustard, Sesame Seeds, Sulphites. Other: Citrus, Onion.", "price": "£24" },
+                     { "name": "LOBSTER PAPPARDELLE", "tagline": "With Chives, Lemon & Black Pepper", "description": "Pappardelle with a Butter Emulsion, Lobster finished Lemongrass and Black Pepper.\nDefinitions:\nPappardelle: Large, broad, flat pasta from Tuscany.\nLemongrass: Tropical herb with strong citrus flavour.", "allergens": "Cereals/Gluten, Crustaceans, Eggs, Fish, Milk (Incl Lactose), Soya, Sulphites. Other: Alcohol, Citrus, Garlic, Nightshade, Onion.", "price": "£38" },
+                     { "name": "STEAK & FRITES", "tagline": "With Peppercorn Sauce", "description": "Bavette steak with peppercorn sauce and fries.\nDefinitions:\nBavette: From Miquel Vergara farm (Spain), family-owned, prioritizes animal welfare.\nBlack Sarawak pepper: Harvested on Borneo, hand-picked, sun-dried. Woody scents with fresh fruity notes.\nNote: Fryer has cross contamination of Gluten.", "allergens": "Celery, Cereals/Gluten (CC from fryer), Milk (Incl Lactose), Mustard, Sulphites. Other: Alcohol, Citrus, Garlic, Onion.", "price": "N/A" }
+                   ]
+                 },
+                 {
+                   "title": "SWEETS (Available from 12 pm daily)",
+                   "items": [
+                     { "name": "CANDY BAR", "tagline": "Literally, with Dark Chocolate & Caramel", "description": "(No detailed description page found in the extracted text)", "allergens": "(Not available)", "price": "£11" },
+                     { "name": "ICE CREAM SANDWICH", "tagline": "Salted Caramel & Sweet Corn", "description": "Ice cream Sandwich made with corn ice cream, corn brittle, sable biscuit & corn salted caramel.", "allergens": "Cereals/Gluten, Eggs, Milk (Incl Lactose).", "price": "£12" },
+                     { "name": "CHOCOLATE", "tagline": "Salted Caramel with Banana Brûlée & Banana Chocolate Ice Cream", "description": "A banana chocolate cake with banana Cremieux, banana caramel, banana crumble and banana tuile on top. Served with banana & Chocolate ice cream.\nDefinition: Tuile: Baked wafer, French origin, often arced, served as accompaniment.", "allergens": "Cereals/Gluten, Eggs, Milk (Incl Lactose), Soya.", "price": "£14" },
+                     { "name": "RASPBERRY & PISTACHIO", "tagline": "Baked Pastry with Raspberry & Pistachio Ice Cream", "description": "Pistachio Mille Feuille with pistachio mousseline and raspberry pate de fruit. Served with pistachio ice cream on the side.\nDefinition: Mousseline: Light dessert cream with pastry cream and whipped cream.", "allergens": "Cereals/Gluten, Eggs, Milk (Incl Lactose), Nuts (Pistachio).", "price": "£14" },
+                     { "name": "CHEESE", "tagline": "Brightwell Ash, Bonnington Linn, St. James, Pevensey Blue with Seasonal Accompaniments", "description": "Cheeses:\nBrightwell Ash: Unpasteurised Goat's milk, Vegetarian rennet (Oxfordshire). Ash coated, fresh, tangy, crumblier texture. Aged 21+ days.\nBonnington Linn: Unpasteurised Goat's milk, Vegetarian rennet (Lanarkshire, Scotland). Matured 4+ months. Firm crumbly texture, nutty lingering notes, fresh zingy after-taste.\nSt. James: Pasteurised Sheep's Milk, Animal rennet (Cumbria). Washed rind, flavours vary from mild/lactic to funky/strong.\nPevensey Blue: Pasteurized Cows' milk, Traditional rennet (Sussex). Modelled on Gorgonzola Dolce, salty, sweet fondant texture.\nAccompaniments: Truffle honey jelly & gooseberry chutney.\nBread: Parmesan Sable Breton (contains cereals/gluten, eggs, milk), currant bread & sourdough crackers (contains sesame seeds).", "allergens": "Milk (All cheeses). Accompaniments/Bread: Cereals/Gluten, Eggs, Milk, Sesame Seeds. (Depends on selection).", "price": "£18" }
+                   ]
+                 }
+               ]
+             },
+             "sh": {
+               "title": "SIDE HUSTLE MENU",
+               "subtitle": "Spring 2025",
+               "sections": [
+                 {
+                   "title": "SALSAS / DIPS (Served with corn Tortilla chips)",
+                   "items": [
+                     { "name": "Guacamole", "tagline": "Fresh Herbs & Ajo Perejil", "description": "Guacamole with herbs and ajo perejil, served with corn Tortilla chips on the side garnished with a herb salad.\nDefinitions:\nGuacamole: Originates from Aztecs (avocados, tomatoes, chiles, salt), Spanish added onion, lime, coriander.\nAjo Perejil: Spanish staple marinade (garlic, parsley, olive oil, salt).", "allergens": "(None marked)", "dietaryInfo": "Citrus, Garlic, Nightshade (chilli), Onion.", "price": "£10" },
+                     { "name": "Sikil Pak", "tagline": "Tomato, Guajillo & Hazelnut", "description": "Hazelnut sikil pak with guajillo powder and tortilla chips served on the side.\nDefinitions:\nSikil Pak: Pre-Hispanic Yucatan dip (toasted pumpkin seeds, habanero, roasted tomato).\nGuajillo Chili: Dry form of mirasol pepper, common in Mexican cuisine.", "allergens": "Nuts (Hazelnut).", "dietaryInfo": "Citrus, Garlic, Nightshade, Onion.", "price": "£8" },
+                     { "name": "Green Pipian", "tagline": "Pistachio & Jalapeño", "description": "Green pipian with pistachios and jalapeño, served with roasted pistachio, pumpkin seeds and corn tortillas chips on the side.\nDefinition: Pipián: Mexican sauce with puréed greens, thickened with ground pumpkin seeds; origins in Aztec, Purepecha & Mayan cuisines.", "allergens": "Nuts (Pistachio), Sulphites.", "dietaryInfo": "Citrus, Garlic, Nightshade (chilli), Onion.", "price": "£9" },
+                     { "name": "All 3 Salsas/Dips", "price": "£25" }
+                   ]
+                 },
+                 {
+                   "title": "BOTANAS / SNACKS",
+                   "items": [
+                     { "name": "Oysters", "tagline": "Jalapeño & Pomegranate Mignonette", "description": "Carlingford oysters served with Pomegranate mignonette, red currant berries, shallots and jalapeno. (Carlingford Lough oysters benefit from tidal water exchange and freshwater flow, giving distinctive flavour).", "allergens": "Molluscs (Cannot be removed), Sulphites.", "dietaryInfo": "Nightshade (chilli), Onion.", "price": "6 for £28" },
+                     { "name": "Prawn Croquettes", "tagline": "Seaweed, Bonito & Habanero", "description": "Prawn croquettes, served with Kewpie mayo, habanero sweet and sour, Katsuobushi (bonito flake), Nori, and a lime wedge. (3 pieces per portion, possible to add a fourth).\nDefinitions: Katsuobushi: Bonito flakes (simmered, smoked, fermented skipjack tuna) for umami.", "allergens": "Cereals/Gluten, Crustaceans, Eggs, Fish (Bonito), Milk (Incl Lactose), Sesame Seeds, Soya.", "dietaryInfo": "Alcohol (White Wine, Mirin), Citrus (Lime), Garlic, Nightshade (Habanero, Morita), Onion.", "price": "£12" },
+                     { "name": "Padrón Peppers", "tagline": "Citrus & Salsa Macha", "description": "Padrones with salsa macha, morita and lime salt.\nDefinition: Padrón Peppers: Small, green peppers from Galicia, Spain; usually mild, but about 1 in 10 is spicy.", "allergens": "Sesame Seeds, Sulphites.", "dietaryInfo": "Citrus, Garlic, Nightshade (chilli), Onion.", "price": "£9" },
+                     { "name": "Seabass Ceviche", "tagline": "Delica Pumpkin & Leche de Tigre (Note: Details mention Yuzu & Tomatillo)", "description": "A seabass ceviche, rice crackers, with leche de tigre, pico de gallo.\nDefinition: Ceviche: Raw meat or fish cured in citrus.", "allergens": "Eggs, Fish, Soya, Sulphites.", "dietaryInfo": "Alcohol (Mirin), Citrus, Nightshade, Onion.", "price": "£16" },
+                     { "name": "Sweet Plantain (Maduro)", "tagline": "Truffle Honey, Cheese & Togarashi", "description": "A Ripe Plantain, with a Queso Mix. Accompanied by Togarashi, Lemon Balm, Guacachile and a Habanero ash.\nDefinition: Togarashi: Japanese spice blend for a fiery umami kick.", "allergens": "Milk (Incl Lactose), Sesame Seeds.", "dietaryInfo": "Citrus (Orange Skin), Garlic, Nightshade (chilli), Onion.", "price": "£11" },
+                     { "name": "Tuna Tostones (Tostada)", "tagline": "Crudo with Coriander Mayo & Ancho Chilli", "description": "Crispy tortilla, topped with ancho chilli spread, coriander mayo, layered slices of tuna sashimi, radish relish and coriander leaf.\nDefinitions:\nTostada: \"Toasted\" tortilla, often flat, with toppings.\nAncho Chilli: Mild, earthy, fruity dried poblano chilli.", "allergens": "Eggs, Fish, Soya, Sulphites.", "dietaryInfo": "Citrus (Vinegar), Garlic, Nightshade.", "price": "£14" }
+                   ]
+                 },
+                 {
+                   "title": "MAIZ / CORN",
+                   "items": [
+                     { "name": "Shiitake Taco", "tagline": "With Tare, Shoyu & Daikon (Note: Description differs)", "description": "A Taco with Romesco, Shiitake Sofrito, White Onion, Coriander and a Lime wedge.\nDefinition: Shoyu: Soy Sauce (white version used here).", "allergens": "Eggs, Soya, Sulphites.", "dietaryInfo": "Alcohol (Mirin, Sake, White Wine), Citrus, Garlic, Mushroom, Nightshade (chilli), Onion.", "price": "£8" },
+                     { "name": "Baja Fish Taco", "tagline": "With Mexican Coleslaw & Morita Chilli", "description": "Baja style cod taco, with Morita Mayo & cabbage coleslaw.", "allergens": "Eggs, Fish. (Confirm Gluten in tempura).", "dietaryInfo": "Citrus, Garlic, Nightshade, Onion.", "price": "£8" },
+                     { "name": "Pork Carnita Taco", "tagline": "With Avocado Salsa Verde & Xnipec", "description": "Pork Carnitas with Avocado salsa verde & xnipek.\nDefinition: Tomatillo: Small, green, tangy fruit used in Mexican cuisine, key for salsas.", "allergens": "Sulphites (Vinegar).", "dietaryInfo": "Citrus, Garlic, Nightshade, Onion, Pork.", "price": "£8" },
+                     { "name": "Chicken Tinga Taco", "tagline": "With Charred Pineapple & Guajillo Chilli", "description": "Taco with Chicken tinga, Al Pastor sauce, charred pineapple, pickled red onion, and coriander.", "allergens": "Cereals/Gluten (standard tortilla), Sulphites (vinegar).", "dietaryInfo": "Citrus, Garlic, Nightshade (chilli), Onion. (Note: May contain gluten - check with kitchen).", "price": "£8" },
+                     { "name": "Any 3 Tacos", "price": "£22" },
+                     { "name": "Flautas (Paneer Flauta)", "tagline": "Three, Chilli Paneer with Salsa Verde & Cheese Costra (Note: Description differs)", "description": "A Flauta with Paneer, Salsa Criolla, Salsa Macha and Morita Oil. (3 pieces per portion, possible to add a fourth).\nDefinition: Paneer: Fresh, soft Indian cheese from curdled milk.", "allergens": "Eggs, Milk (Incl Lactose - Paneer, Mozzarella), Sesame Seeds.", "dietaryInfo": "Garlic, Nightshade (chilli), Onion.", "price": "£12" },
+                     { "name": "Lamb Birria Papusa", "tagline": "Mozzarella & Caraway Slaw (Note: Details use Cumin Slaw)", "description": "", "allergens": "Celery (Stock?), Milk (Incl Lactose), Sulphites (Vinegar).", "dietaryInfo": "Citrus, Garlic, Nightshade, Onion.", "price": "£14" },
+                     { "name": "Fried Chicken Torta", "tagline": "With Salsa Guajillo", "description": "Warm torta with tempura fried chicken, avocado and salsa guajillo. Finished with pickled jalapenos and salad.\nDefinition: Torta: Hot/cold sandwich on a crusty roll.", "allergens": "Eggs (Mayo), Milk (Incl Lactose - Whey), Soya, Sulphites (Vinegar). (Confirm Gluten in dredge/tempura).", "dietaryInfo": "Citrus, Garlic, Nightshade, Onion.", "price": "£19" }
+                   ]
+                 },
+                 {
+                   "title": "POSTRE / DESSERT",
+                   "items": [
+                     { "name": "Ice Cream Sandwich", "tagline": "Salted Caramel & Sweet Corn", "description": "Ice cream Sandwich made with corn ice cream, corn brittle, sable biscuit & corn salted caramel.", "allergens": "Cereals/Gluten, Eggs, Milk (Incl Lactose), Soya (Chocolate).", "price": "£12" },
+                     { "name": "Churros", "tagline": "Chocolate & Dulce de Leche Crema", "description": "Cinnamon sugar churros served with two dipping sauces: Chocolate Tonka Sauce & Dulce de leche.\nDefinitions:\nChurros: Fried dough dessert (Spanish/Portuguese cuisine). Dough contains no dairy.\nTonka Bean: Similar to vanilla but nuttier/spiced.", "allergens": "Cereals/Gluten, Eggs, Milk (Incl Lactose - Dulce de Leche), Soya (Choc Sauce). (Note: Churros dough is dairy-free but contains egg).", "price": "£12" }
+                   ]
+                 }
+               ]
+             }
+        }

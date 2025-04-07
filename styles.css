@@ -1,0 +1,72 @@
+/* Apply Inter font globally */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        /* Custom scrollbar */
+        ::-webkit-scrollbar { width: 8px; height: 8px; }
+        ::-webkit-scrollbar-track { background: #f1f1f1; border-radius: 10px; }
+        ::-webkit-scrollbar-thumb { background: #d1d5db; border-radius: 10px; }
+        ::-webkit-scrollbar-thumb:hover { background: #9ca3af; }
+
+        /* Style for active sidebar button */
+        .sidebar-button.active {
+            background-color: #f3f4f6; /* gray-100 */
+            font-weight: 600;
+            color: #1f2937; /* gray-800 */
+        }
+        /* Sidebar icon styling */
+        .sidebar-icon {
+            width: 1.1rem;
+            height: 1.1rem;
+            stroke-width: 2;
+            margin-right: 0.75rem; /* Increased margin */
+            vertical-align: middle;
+            flex-shrink: 0; /* Prevent icon shrinking */
+        }
+         /* Chevron icon styling */
+        .chevron-icon {
+            width: 1rem;
+            height: 1rem;
+            stroke-width: 2.5;
+            transition: transform 0.2s ease-in-out;
+            margin-left: auto; /* Push icon to the right */
+        }
+        .details-visible .chevron-icon {
+             transform: rotate(180deg);
+        }
+
+        /* Minimalist item styling */
+        .menu-item {
+            transition: background-color 0.15s ease-in-out;
+        }
+        /* Details container styling */
+        .item-details {
+            max-height: 0;
+            overflow: hidden;
+            visibility: hidden; /* Hide completely */
+            opacity: 0; /* Fade out */
+            transition: max-height 0.3s ease-out, opacity 0.3s ease-out, visibility 0s linear 0.3s; /* Transition height, opacity, and visibility (delay visibility change) */
+            padding-top: 0;
+            padding-bottom: 0;
+            padding-left: 0.5rem;
+            border-left: 2px solid transparent;
+        }
+        .details-visible .item-details {
+            max-height: 1000px; /* Large enough max-height for content */
+            visibility: visible; /* Make visible */
+            opacity: 1; /* Fade in */
+            transition: max-height 0.4s ease-in, opacity 0.4s ease-in, visibility 0s linear 0s; /* Transition height, opacity, and visibility (immediate visibility change) */
+            margin-top: 0.5rem; /* Add space when visible */
+            padding-top: 0.5rem;
+            padding-bottom: 0.5rem;
+            border-left-color: #d1d5db; /* gray-300 */
+        }
+
+        /* Add subtle animation for item loading */
+        .menu-item-container {
+            animation: fadeIn 0.3s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
